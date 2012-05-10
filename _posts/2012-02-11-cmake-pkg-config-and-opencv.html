@@ -1,0 +1,13 @@
+---
+layout: post
+title: CMake, pkg-config and OpenCV
+date: 2012-02-11
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I regularly switch between machines to build some software stack, which depends on OpenCV.<br />Quit bothersome is that OpenCV might be installed at some arbitrary location, and that they changed their library/header structure going from v2.1 to 2.2.<br /><br />To build it, I'm using CMake, and having tried a lot of different FindOpenCV.cmake files found across the web, I finally discovered that pkg-config comes in quite handy here. (albeit at the cost of losing cross-platformity)<br /><br />Since I never bothered to version that single cmake file, I'm always looking up how to use pkg-config in combination with cmake over and over again.<br /><br />And now I got tired of doing just that, so here it is:&nbsp;<a href="http://pastebin.com/CnrSWDM5">http://pastebin.com/CnrSWDM5</a><br /><br />Enjoy (I know I will)<br /><br /><a href="http://www.vtk.org/Wiki/CMake:How_To_Find_Libraries">more info</a></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

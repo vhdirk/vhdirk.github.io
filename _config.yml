@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Rubber Ducking
-tagline: Site Tagline
+tagline: The duck knows it all
 author :
   name : Dirk Van Haerenborgh
   email : vhdirk@gmail.com

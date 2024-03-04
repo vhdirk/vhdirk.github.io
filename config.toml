@@ -45,12 +45,6 @@ menu = [
     { name = "blog", url = "/blog" },
 ]
 
-stylesheets = [
-    "colors.css"
-]
-
-
-
 blog_categorized = false # Whether to categorize blog posts
 back_to_top = true # Whether to show back-to-top button on post pages
 homepage_layout = "recent"

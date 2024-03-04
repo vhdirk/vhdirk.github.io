@@ -1,6 +1,6 @@
 +++
 paginate_by = 7
-path = "blog"
-title = "Blog"
+path = "posts"
+title = "Posts"
 sort_by = "date"
 +++

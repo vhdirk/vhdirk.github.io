@@ -36,7 +36,7 @@ mathjax_dollar_inline_enable = true
 socials = [
     { name = "GitHub", icon = "github", url = "https://github.com/vhdirk" },
     { name = "Gitlab", icon = "gitlab", url = "https://gitlab.gnome.org/vhdirk" },
-    { name = "LinkedIn", icon = "linkedin", url = "https://www.linkedin.com/in/dirk.vahnhaerenborgh/" },
+    { name = "LinkedIn", icon = "linkedin", url = "https://www.linkedin.com/in/dirk.vanhaerenborgh/" },
     { name = "Email", icon = "email", url = "mailto:vhdirk@gmail.com" },
 ]
 

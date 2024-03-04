@@ -4,7 +4,7 @@ date = "2012-02-09"
 +++
 
 The vanilla TexLive comes with a package management tool called _tlmgr_ which is
-particularly usefull when you want to install additional packages. The TexLive
+particularly useful when you want to install additional packages. The TexLive
 version packaged in ubuntu does not have this tool since it would conflict with
 apt.
 

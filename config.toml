@@ -1,0 +1,79 @@
+# The URL the site will be built for
+base_url = "https://vhdirk.github.io"
+
+title = "Dirk Van Haerenborgh"
+description = "Personal blog & portfolio"
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+default_language = "en"
+theme = "apollo"
+taxonomies = [
+    { name = "tags" },       # Keep this
+    { name = "categories" }, # Keep this
+]
+
+[markdown]
+highlight_code = true
+# highlight_theme = "nord"
+render_emoji = true
+external_links_target_blank = false
+external_links_no_follow = true
+external_links_no_referrer = true
+smart_punctuation = false
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+theme = "toggle"
+mathjax = true
+mathjax_dollar_inline_enable = true
+
+socials = [
+    { name = "GitHub", icon = "github", url = "https://github.com/vhdirk" },
+    { name = "Gitlab", icon = "gitlab", url = "https://gitlab.gnome.org/vhdirk" },
+    { name = "LinkedIn", icon = "linkedin", url = "https://www.linkedin.com/in/dirk.vahnhaerenborgh/" },
+    { name = "Email", icon = "email", url = "mailto:vhdirk@gmail.com" },
+]
+
+menu = [
+    { name = "projects", url = "/projects" },
+    { name = "blog", url = "/blog" },
+]
+
+blog_categorized = false # Whether to categorize blog posts
+back_to_top = true # Whether to show back-to-top button on post pages
+homepage_layout = "recent"
+recent_max = 4
+recent_more = true
+recent_more_text = "more »"
+nav_separator = "::"
+nav_wrapper_left = "{"
+nav_wrapper_right = "} ;"
+nav_wrapper_separator = ","
+
+name = "Dirk Van Haerenborgh" # Your name
+id = "vhdirk" # Your id/username/handle
+show_id = true
+bio = "Software Engineer @ Aloxy" # Your bio
+avatar = "avatar.jpg" # Your avatar
+footer_copyright = "Dirk Van Haerenborgh"
+
+toc = true              # Whether to show Table-Of-Contents by default
+copy = true
+outdate_alert = true
+comment = false         # Whether to show giscus comment section by default, see https://giscus.app for more info
+display_tags = true     # Whether to display tags on post pages by default
+truncate_summary = true # Whether to truncate the summary of a post by default
+
+outdate_alert_days = 365
+outdate_alert_text_before = "This article was last updated "
+outdate_alert_text_after = " days ago and may be out of date."
+
+not_found_title = "404"
+not_found_error_text = "Not Found"
+not_found_recover_text = "« back to home »"

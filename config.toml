@@ -41,8 +41,9 @@ socials = [
 ]
 
 menu = [
-    { name = "projects", url = "/projects" },
-    { name = "blog", url = "/blog" },
+    { name = "/projects", url = "/projects" },
+    { name = "/posts", url = "/posts" },
+    { name = "/about", url = "/about" },
 ]
 
 outdate_callout = true

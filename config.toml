@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://vhdirk.github.io"
 
-title = "Dirk Van Haerenborgh"
+title = "@vhdirk"
 description = "Personal blog & portfolio"
 compile_sass = true
 
